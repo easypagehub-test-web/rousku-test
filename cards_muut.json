@@ -1,18 +1,179 @@
 [
-  { "name": "TCG Guru Perfect Slim Fit Inner Sleeves 100X <br>Mitat 64x89mm <br>Hinta 4,90€/KPL <br>Saatavuus 19kpl <br>Tilaus Num FIT", "id": "TCGFIT.png" },
-  { "name": "100 Ultra Pro Soft Sleeves <br>Mitat 66x91mm <br>Hinta 1,50€/KPL <br>Saatavuus 15kpl <br>Tilaus Num Soft", "id": "100 Ultra Pro Soft Sleeves.png" },
-  { "name": "25x Ultra Pro Regular Toploaders <br>Koko 3x4 <br>Hinta 4,00€/KPL <br>Saatavuus 6kpl <br>Tilaus Num Toploaders", "id": "Toploader.png" },
-  { "name": "Smart Guard Cardboard Toploader <br>Hinta 1,70€/1QA=10kpl <br>Saatavuus 10QA <br>Tilaus Num Smart", "id": "Smart guard.png" },
-  { "name": "Minnie Mouse - Musketeer Champion #206 V.2 <br>Setti: Ursula's Return, Kieli Eng <br>Hinta 61,56€ <br>Tilaus Num Minnie V.2", "id": "Minnie Mouse Musketeer Champion V2.jpg" },
-  { "name": "Don!! Law NM/Whitening <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 5,95€ <br>Tilaus Num Law", "id": "Don!! Law.jfif" },
-{ "name": "Don!! Zoro NM/Whitening <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 5,95€ <br>Tilaus Num Zoro", "id": "Don!! Zoro.jfif" },
-  { "name": "Don!! Rosinante NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 3,95€ <br>Tilaus Num Rosi", "id": "Don!! Rosinante.jfif" },
-  { "name": "Don!! Hody NM/Whitening <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 1,80€ <br>Tilaus Num Hody", "id": "Don!! Hody.jfif" },
-{ "name": "Don!! Magellan NM, 1/3 whitening, <br>Hinta 2,95€, Tilaus Num Mag 1/3 <br>Don!! Magellan NM, 2/3 valkoinen piste takana ja whitening, <br>Hinta 2,95€, Tilaus Num Mag 2/3 <br>Don!! Magellan NM, 3/3 valkoinen piste takana ja whitening Setti: The Best, Non-English, Kieli Jap <br>Hinta 2,95€, Tilaus Num Mag 3/3", "id": "Don!! Magellan all.jfif" },
-{ "name": "Gum-Gum Giant Gavel OP03-055 Textured Foil NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 3,20€ <br>Tilaus Num OP03-055", "id": "Gum-Gum Giant Gavel.jfif" },
-  { "name": "Air Door OP03-094 Textured Foil NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 3,25€ <br>Tilaus Num OP03-094", "id": "Air Door.jfif" },
-  { "name": "Thunder Bolt OP03-121 Textured Foil NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 3,25€ <br>Tilaus Num OP03-121", "id": "Thunder Bolt.jfif"},
-  { "name": "Barrier!! OP04-095 Textured Foil NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 1,50€ <br>Tilaus Num OP04-095", "id": "Barrier.jfif" },
-  { "name": "Two-Hundred Million Volts Amaru OP05-115 Textured Foil NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 3,25€ <br>Tilaus Num OP05-115", "id": "Two-Hundred Million Volts Amaru.jfif"},
-  { "name": "Two-Hundred Million Volts Amaru OP05-115 V.3 NM <br>Setti: The Best, Non-English, Kieli Jap <br>Hinta 12,87€ <br>Tilaus Num V.3", "id": "Two-Hundred Million Volts Amaru v3.jfif"}
+  {
+    "name": "TCG Guru Perfect Slim Fit Inner Sleeves 100X",
+    "dimensions": "64x89mm",
+    "price": 4.90,
+    "availability": 19,
+    "order_code": "FIT",
+    "image_id": "TCGFIT.png",
+    "category": "Sleeves"
+  },
+  {
+    "name": "100 Ultra Pro Soft Sleeves",
+    "dimensions": "66x91mm",
+    "price": 1.50,
+    "availability": 15,
+    "order_code": "Soft",
+    "image_id": "100 Ultra Pro Soft Sleeves.png",
+    "category": "Sleeves"
+  },
+  {
+    "name": "25x Ultra Pro Regular Toploaders",
+    "dimensions": "3x4",
+    "price": 4.00,
+    "availability": 6,
+    "order_code": "Toploaders",
+    "image_id": "Toploader.png",
+    "category": "Protection"
+  },
+  {
+    "name": "Smart Guard Cardboard Toploader",
+    "price": 1.70,
+    "availability": 10,
+    "unit": "1QA=10kpl",
+    "order_code": "Smart",
+    "image_id": "Smart guard.png",
+    "category": "Protection"
+  },
+  {
+    "name": "Minnie Mouse - Musketeer Champion #206 V.2",
+    "set": "Ursula's Return",
+    "language": "Eng",
+    "price": 61.56,
+    "availability": 1,
+    "order_code": "Minnie V.2",
+    "image_id": "Minnie Mouse Musketeer Champion V2.jpg",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Law",
+    "condition": "NM/Whitening",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 5.95,
+    "order_code": "Law",
+    "image_id": "Don!! Law.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Zoro",
+    "condition": "NM/Whitening",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 5.95,
+    "order_code": "Zoro",
+    "image_id": "Don!! Zoro.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Rosinante",
+    "condition": "NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 3.95,
+    "order_code": "Rosi",
+    "image_id": "Don!! Rosinante.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Hody",
+    "condition": "NM/Whitening",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 1.80,
+    "order_code": "Hody",
+    "image_id": "Don!! Hody.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Magellan",
+    "condition": "NM, 1/3 whitening",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 2.95,
+    "order_code": "Mag 1/3",
+    "image_id": "Don!! Magellan all.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Magellan",
+    "condition": "NM, 2/3 valkoinen piste takana ja whitening",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 2.95,
+    "order_code": "Mag 2/3",
+    "image_id": "Don!! Magellan all.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Don!! Magellan",
+    "condition": "NM, 3/3 valkoinen piste takana ja whitening",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 2.95,
+    "order_code": "Mag 3/3",
+    "image_id": "Don!! Magellan all.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Gum-Gum Giant Gavel OP03-055",
+    "condition": "Textured Foil NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 3.20,
+    "order_code": "OP03-055",
+    "image_id": "Gum-Gum Giant Gavel.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Air Door OP03-094",
+    "condition": "Textured Foil NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 3.25,
+    "order_code": "OP03-094",
+    "image_id": "Air Door.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Thunder Bolt OP03-121",
+    "condition": "Textured Foil NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 3.25,
+    "order_code": "OP03-121",
+    "image_id": "Thunder Bolt.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Barrier!! OP04-095",
+    "condition": "Textured Foil NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 1.50,
+    "order_code": "OP04-095",
+    "image_id": "Barrier.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Two-Hundred Million Volts Amaru OP05-115",
+    "condition": "Textured Foil NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 3.25,
+    "order_code": "OP05-115",
+    "image_id": "Two-Hundred Million Volts Amaru.jfif",
+    "category": "Card"
+  },
+  {
+    "name": "Two-Hundred Million Volts Amaru OP05-115 V.3",
+    "condition": "NM",
+    "set": "The Best",
+    "language": "Jap",
+    "price": 12.87,
+    "order_code": "V.3",
+    "image_id": "Two-Hundred Million Volts Amaru v3.jfif",
+    "category": "Card"
+  }
 ]
+
